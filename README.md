@@ -6,9 +6,9 @@
 
 A simple, private, personal spending tracker for iOS and Android.
 
-[![Latest release](https://img.shields.io/github/v/release/polskalok/pouchly-app?label=release&color=2563eb)](https://github.com/polskalok/pouchly-app/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/polskalok/pouchly-app/total?label=downloads&color=22c55e)](https://github.com/polskalok/pouchly-app/releases/latest)
-[![License: MIT](https://img.shields.io/github/license/polskalok/pouchly-app?color=blue)](LICENSE)
+[![Latest release](https://img.shields.io/github/v/release/polskalok/pouchly-app?label=release&color=2563eb&cacheSeconds=60)](https://github.com/polskalok/pouchly-app/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/polskalok/pouchly-app/total?label=downloads&color=22c55e&cacheSeconds=60)](https://github.com/polskalok/pouchly-app/releases/latest)
+[![License: MIT](https://img.shields.io/github/license/polskalok/pouchly-app?color=blue&cacheSeconds=60)](LICENSE)
 [![Localized](https://img.shields.io/badge/localized-EN%20%7C%20PL-success)](#features)
 [![Expo SDK](https://img.shields.io/badge/Expo%20SDK-57-000020?logo=expo)](https://docs.expo.dev/versions/v57.0.0/)
 
