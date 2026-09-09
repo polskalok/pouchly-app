@@ -40,3 +40,6 @@ expo-dev.log
 # generated native folders
 /ios
 /android
+
+# downloaded release artifacts (attached to GitHub releases, not tracked in git)
+/dist-releases

@@ -5,6 +5,11 @@ import { getAllTransactions, getCategories } from './db';
 import { categoryLabel } from './categories';
 
 function csvEscape(value: string): string {
+  // Neutralize CSV formula injection: a leading =, +, -, or @ is interpreted
+  // as a formula by Excel/Sheets when the exported file is reopened.
+  if (/^[=+\-@]/.test(value)) {
+    value = `'${value}`;
+  }
   if (value.includes(',') || value.includes('"') || value.includes('\n')) {
     return `"${value.replace(/"/g, '""')}"`;
   }
